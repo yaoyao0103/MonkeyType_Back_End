@@ -21,11 +21,11 @@ public class AccountCollectionException extends Exception {
     }
 
     public static AccountCollectionException emailAlreadyExists() {
-        return new AccountCollectionException("Duplicated email.", 409);
+        return new AccountCollectionException("i email.", 409);
     }
 
     public static AccountCollectionException invalidPassword() {
-        return new AccountCollectionException("Invalid password.", 400);
+        return new AccountCollectionException("Invalid password.", 401);
     }
 
     public static AccountCollectionException invalidPasswordFormat() {
